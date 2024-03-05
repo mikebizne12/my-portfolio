@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import compress from 'astro-compress';
+import tailwind from '@astrojs/tailwind'; 
 import react from '@astrojs/react';
 import markdownConfig from './markdown.config';
 import mdx from '@astrojs/mdx';
