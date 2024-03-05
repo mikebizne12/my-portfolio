@@ -23,7 +23,6 @@ export default defineConfig({
         applyBaseStyles: false,
       },
     }),
-    compress(),
     react(),
     mdx({
       ...markdownConfig,
