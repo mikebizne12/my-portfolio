@@ -11,7 +11,7 @@ import robotsTxt from 'astro-robots-txt';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mikekeb.github.io',
-  //base: '/my-portfolio',
+  base: '/my-portfolio',
   prefetch: true,
   markdown: {
     ...markdownConfig,
