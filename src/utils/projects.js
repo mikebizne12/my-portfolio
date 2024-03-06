@@ -1,10 +1,3 @@
-import ras from '../assets/images/ras.webp';
-import joke from '../assets/images/joke.webp';
-import lofi from '../assets/images/lofi.webp';
-import blog from '../assets/images/blog.webp';
-import docAid from '../assets/images/docAid.webp';
-import LifeInsureEase from '../assets/images/lifeinsureease.webp';
-import Portfolio from '../assets/images/portfolio.webp';
 import BaufestSystem from '../assets/images/baufest.webp';
 import EZSystem from '../assets/images/ez.webp';
 import ICBCSystem from '../assets/images/icbc.webp';
@@ -26,7 +19,6 @@ import HaciendaSystem from '../assets/images/hacienda.webp';
 import BikerTourSystem from '../assets/images/bikertours.webp';
 import RadarLibrary from '../assets/images/radar.webp';
 import Freelance from '../assets/images/freelance.webp';
-import CartManagementSystem from '../assets/images/cart-management-system.webp';
 const data = [
   {
     name: 'MCR Construction Machinery',
@@ -36,7 +28,7 @@ const data = [
     image: McrSystem,
     slug: 'mcr-construction-machiney',
     description:
-      'This is a suite application when administrator register reports per week with hour and cost from operators. The System made using Flutter and Google Material with the help of Supabase. There is a one project with difference build, one for Desktop and anoter for Mobile.',
+      'This is a suite application where the administrator register reports per week with hour and cost of operators. The System made using Flutter and Google Material with the help of Supabase. There is a one project with difference build, one for Desktop and anoter for Mobile.',
     tech: [
       'Flutter',
       'Supabase',
@@ -101,7 +93,7 @@ const data = [
     image: BaufestSystem,
     slug: 'bitcerts',
     description:
-      'This is a application when people of Baufest could be generate a certification via blockchain. The System made using ReactJS.',
+      'This is a application where Baufest people can generate a certification through blockchain. The System made using ReactJS.',
     tech: [
       'ReactJS',
       'Redux',
@@ -126,7 +118,7 @@ const data = [
     image: BaufestSystem,
     slug: 'lending-go',
     description:
-      'This is a application when you can request a credit bank. The System made using ReactJS and NextJS',
+      'This is a application where the user can request a credit bank. The System made using ReactJS and NextJS',
     tech: [
       'ReactJS',
       'NextJS',
@@ -151,7 +143,7 @@ const data = [
     image: BaufestSystem,
     slug: 'challenge',
     description:
-      'This is a challenge application that baufest sent me for a opportunity to work with them. The System made using Angular',
+      'This is a challenge application that Baufest sent me for a opportunity to work with them. The System made using Angular',
     tech: [
       'Angular',
       'Angular Boostrap',
@@ -171,7 +163,7 @@ const data = [
     image: ICBCSystem,
     slug: 'icbc',
     description:
-      'This are many applications when customer was able to request a credit bank. The System made using Angular',
+      'These are many applications where customer can request a credit bank. The System made using Angular',
     tech: [
       'Angular',
       'Karma/Jasmine',
@@ -194,7 +186,7 @@ const data = [
     image: HotelesMexicanosSystem,
     slug: 'booking-engine',
     description:
-      'This is a booking application when customer is able to see a list of rooms availables and is able to reserve. The System made using Laravel and VueJS. Api was provided by the backend team.',
+      'This is a booking application where customer can see a list of rooms availables and can reserve. The System made using Laravel and VueJS. Api was provided by the backend team.',
     tech: [
       'HTML',
       'Javascript',
@@ -226,7 +218,7 @@ const data = [
     image: EZSystem,
     slug: 'backoffice-hotel',
     description:
-      'This is a backoffice application when the administrator is able to manage all operation of own hotel. The System made using Angular and Laravel for API.',
+      'This is a backoffice application where the administrator can manage all operation of own hotel. The System made using Angular and Laravel for API.',
     tech: [
       'HTML',
       'Javascript',
@@ -254,7 +246,7 @@ const data = [
     image: EZSystem,
     slug: 'channerl-manager',
     description:
-      'This is a channerl manager application when easy-rez connected with others channel around at the world and downloaded all the reservation in local system. The System made using PHP.',
+      'This is a channel manager application where easy-rez connected with others channel around at the world and downloaded all the reservation in local system. The System made using PHP.',
     tech: [
       'PHP',
       'PHPUnit',
@@ -274,7 +266,7 @@ const data = [
     image: EZSystem,
     slug: 'billing-system',
     description:
-      'This is a billing application when the administrator is able to generate invoices and generate and reports in PDF and Excel. The System made using AngularJS and Laravel.',
+      'This is a billing application where the administrator can generate invoices and generate reports in PDF and Excel. The System made using AngularJS and Laravel.',
     tech: [
       'HTML',
       'Javascript',
@@ -304,7 +296,7 @@ const data = [
     image: HotelesYucatanSystem,
     slug: 'mobile-booking-engine',
     description:
-      'This is a booking mobile application when the customer is able to search and compare cost of rooms availables before to reserve. The System made using Ionic and Angular.',
+      'This is a booking mobile application where the customer can search and compare cost of rooms availables before to reserve. The System made using Ionic and Angular.',
     tech: [
       'HTML',
       'Angular',
@@ -329,7 +321,7 @@ const data = [
     image: KaviaSystem,
     slug: 'mobile-hotel',
     description:
-      'This is a hotel mobile application when the customer is able to search and compare cost of rooms availables and see more information related to the hotel. The System made using Ionic and Angular.',
+      'This is a hotel mobile application where the customer can search and compare cost of rooms availables and see more information related to the hotel. The System made using Ionic and Angular.',
     tech: [
       'HTML',
       'Angular',
@@ -354,7 +346,7 @@ const data = [
     image: CarrerLabSystem,
     slug: 'carrerlab',
     description:
-      'This is a services website made using Wordpress with page builder. Design provided in AdobeXD for a designer. ',
+      'This is a services website made using Wordpress with page builder. Design was provided by the deginer in AdobeXD. ',
     tech: [
       'Wordpress',
       'HTML',
@@ -377,7 +369,7 @@ const data = [
     image: MostelaSystem,
     slug: 'mostela',
     description:
-      'This is a services website made using Wordpress with page builder. Design provided in Figma for a designer. ',
+      'This is a services website made using Wordpress with page builder. Design was provided by the deginer in Figma. ',
     tech: [
       'Wordpress',
       'HTML',
@@ -401,7 +393,7 @@ const data = [
     image: ChocolateSystem,
     slug: 'chocolates-imperial',
     description:
-      'This is a product regional website made using Wordpress with a custom template, without page builder. ACF was used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design provided in AdobeXD for a designer. ',
+      'This is a product regional website made using Wordpress with a custom template, without page builder. ACF was used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design was provided by the deginer in AdobeXD. ',
     tech: [
       'Wordpress',
       'HTML',
@@ -421,7 +413,7 @@ const data = [
     image: Freelance,
     slug: 'triadikas',
     description:
-      'This is a services architect website made using Wordpress, without page builder. ACF was used, HTML, CSS, Javascript, PHP, AWS.',
+      'This is a services architect website made using Wordpress without page builder. ACF was used, HTML, CSS, Javascript, PHP, AWS.',
     tech: [
       'Wordpress',
       'HTML',
@@ -442,7 +434,7 @@ const data = [
     image: StreamingSystem,
     slug: 'streaming',
     description:
-      'This is a services streaming website made using Wordpress, without page builder. ACF was used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design provided in AdobeXD for a designer. ',
+      'This is a services streaming website made using Wordpress, without page builder. ACF was used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design was provided by the deginer in AdobeXD. ',
     tech: [
       'Wordpress',
       'HTML',
@@ -463,7 +455,7 @@ const data = [
     image: HaciendaSystem,
     slug: 'hacienda-santa-cruz',
     description:
-      'This is a hotel regional website made using Wordpress with a custom template, without page builder. ACF was used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design provided in AdobeXD for a designer. ',
+      'This is a hotel regional website made using Wordpress with a custom template, without page builder. ACF was used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design was provided by the deginer in AdobeXD ',
     tech: [
       'Wordpress',
       'HTML',
@@ -485,7 +477,7 @@ const data = [
     image: ConfiteriaSystem,
     slug: 'confiteria-bm',
     description:
-      'This is a brand & media website made using Wordpress with a custom template, without page builder. ACF & Polylang were used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design provided in AdobeXD for a designer. ',
+      'This is a brand & media website made using Wordpress with a custom template, without page builder. ACF & Polylang were used, also AdobeXD, HTML, CSS, Javascript, PHP, cPanel. Design was provided by the deginer in AdobeXD. ',
     tech: [
       'Wordpress',
       'HTML',
@@ -505,7 +497,7 @@ const data = [
     image: RutaSystem,
     slug: 'ruta-iberoamericana',
     description:
-      'This is a initiative website made using AngularJS with Laravel. Design provided in AdobeXD for a designer. ',
+      'This is a initiative website made using AngularJS with Laravel. Design was provided by the deginer in AdobeXD. ',
     tech: [
       'HTML',
       'Javascript',
@@ -549,7 +541,7 @@ const data = [
     image: Freelance,
     slug: 'arsee',
     description:
-      'This is a private application made using Angular. Desing provided by designer in Figma.',
+      'This is a private application made using Angular. Desing provided by the designer in Figma.',
     tech: [
       'HTML',
       'Javascript',
@@ -574,7 +566,7 @@ const data = [
     image: FinvivirAdminSystem,
     slug: 'finvivir-backoffice',
     description:
-      'This is a job board application when recruiters are able to manage all request from posibles candidates and decide the next step, made using Angular. Desing provided by designer in Figma.',
+      'This is a job board application where recruiters can manage all request from posibles candidates and decide the next step, made using Angular. Desing provided by the designer in Figma.',
     tech: [
       'HTML',
       'Javascript',
@@ -599,7 +591,7 @@ const data = [
     image: FinvivirSystem,
     slug: 'finvivir-web',
     description:
-      'This is a customer application when candidates are able to search open jobs and request your information, made using Angular. Desing provided by designer in Figma.',
+      'This is a customer application where candidates can search open jobs and request your information, made using Angular. Desing provided by the designer in Figma.',
     tech: [
       'HTML',
       'Javascript',
@@ -624,7 +616,7 @@ const data = [
     image: Freelance,
     slug: 'demand-planer',
     description:
-      'This is a gas station application when administrator are able to see statistics and report related to sell gas and they are able to see all invoices generated in each gas station, made using Angular. PrimeNG was used for desing.',
+      'This is a gas station application where administrator can see statistics and report related to sell gas and they can see all invoices generated in each gas station, made using Angular. PrimeNG was used for desing.',
     tech: [
       'HTML',
       'Javascript',
@@ -653,7 +645,7 @@ const data = [
     image: StartFunSystem,
     slug: 'start-fun',
     description:
-      'This is a tour application when administrator are able to create tour, amenities, package, ticket and more, made using Angular.',
+      'This is a tour application where administrator can create a tour, amenities, package, ticket and more, made using Angular.',
     tech: [
       'HTML',
       'Javascript',
@@ -683,7 +675,7 @@ const data = [
     image: Freelance,
     slug: 're-order',
     description:
-      'This is a printer application when administrator are able to create previous order of his customer and he can manage all order status, made using Angular.',
+      'This is a printer application where administrator can create previous order of his customer and he can manage all the order status, made using Angular.',
     tech: [
       'HTML',
       'Javascript',
@@ -713,7 +705,7 @@ const data = [
     image: Freelance,
     slug: 'checklist',
     description:
-      'This is a check list application when user are able to manage different list and categories and mark when one activity has done and even it was possible print screen and upload in specific task, made using Angular.',
+      'This is a check list application where user can manage different list and categories and he can mark when one activity has done and even it is possible print screenshot and upload in specific task, made using Angular.',
     tech: [
       'HTML',
       'Javascript',
@@ -742,7 +734,7 @@ const data = [
     image: BikerTourSystem,
     slug: 'biketours',
     description:
-      'This is a tour application focused on bikers when biker is able to see the different tour available and reserve one of them, made using Angular. Desing provided by designer in Figma.',
+      'This is a tour application focused on bikers where biker can see the different tour available and reserve one of them, made using Angular. Desing provided by the designer in Figma.',
     tech: [
       'HTML',
       'Javascript',
@@ -769,7 +761,7 @@ const data = [
     image: Freelance,
     slug: 'netcorp',
     description:
-      'I had the opportunity to work as Staff for a few months. My activities that I did were create and modify new components and implement new services of API. It made using ReactJS and desing provided by the designer',
+      'I had the opportunity to work as Staff for a few months. My activities that I did were create and modify new components and implement new services of API. It made using ReactJS and desing provided by the designer in AdobeXD',
     tech: [
       'HTML',
       'Javascript',
