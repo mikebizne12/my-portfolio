@@ -76,17 +76,17 @@ export default function PageNav(props) {
           <div className="flex flex-col justify-center items-center gap-4 px-4 m-4 py-4">
             <a
               className="w-full py-2 bg-primary text-center rounded-xl bg-opacity-10 hover:bg-opacity-5 text-primary font-bold"
-              href="/"
+              href="/my-portfolio/"
             >
               Home
             </a>
             <a
               className="w-full py-2 bg-primary text-center rounded-xl bg-opacity-10 hover:bg-opacity-5 text-primary font-bold"
-              href="/#about"
+              href="/my-portfolio/#about"
             >
               About
             </a>
-            <a
+           {/*  <a
               className="w-full py-2 bg-primary text-center rounded-xl bg-opacity-10 hover:bg-opacity-5 text-primary font-bold"
               href="/#contact"
             >
@@ -103,7 +103,7 @@ export default function PageNav(props) {
               href="#"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       ) : null}

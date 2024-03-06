@@ -63,20 +63,20 @@ export default function IndexNav() {
             >
               <div className=" h-[100%] custom w-[100%] flex items-center justify-center">
                 <ul className="flex flex-col text-4xl font-bold text-center space-y-10">
-                  <a onClick={() => isShow(false)} aria-label="Home" href="/">
+                  <a onClick={() => isShow(false)} aria-label="Home" href="/my-portfolio/">
                     Home
                   </a>
                   <a
                     onClick={() => isShow(false)}
                     aria-label="projects"
-                    href="/projects"
+                    href="/my-portfolio/projects"
                   >
                     Projects
                   </a>
                   <a
                     onClick={() => isShow(false)}
                     aria-label="about"
-                    href="/#about"
+                    href="/my-portfolio/#about"
                   >
                     About
                   </a>
@@ -86,7 +86,7 @@ export default function IndexNav() {
                     href="/blog"
                   >
                     Blogs
-                  </a> */}
+                  </a> 
                   <a
                     onClick={() => isShow(false)}
                     aria-label="contact"
@@ -94,7 +94,7 @@ export default function IndexNav() {
                   >
                     Contact
                   </a>
-                  <a>Download CV</a>
+                  <a>Download CV</a>*/}
                 </ul>
               </div>
             </div>
