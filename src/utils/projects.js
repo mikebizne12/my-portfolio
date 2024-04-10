@@ -23,6 +23,27 @@ import AlternaDisplay from '../assets/images/alternadisplay.webp';
 import Devsu from '../assets/images/devsu.webp';
 const data = [
   {
+    name: 'Challenge ByteFactory',
+    type: 'Website',
+    url: '',
+    github: 'https://github.com/mikebizne12/bytefactory-angular-challenge',
+    image: Freelance,
+    slug: 'bytefactory',
+    description:
+      'This is a challenge application that ByteFactory sent me for a opportunity to work with them. The System made using Angular',
+    tech: [
+      'Angular 14',
+      'Sass',
+      'HTML',
+      'GIT',
+      'GitHub',
+      'ESlint',
+      'Prettier',
+      'Husky',
+      'RxJS',
+    ],
+  },
+  {
     name: 'Alterna Display',
     type: 'Website',
     url: 'https://alternadisplay.com/',
@@ -54,13 +75,14 @@ const data = [
     ],
   },
   {
-    name: 'Challenge',
+    name: 'Challenge Devsu',
     type: 'Website',
     url: '',
     github: 'https://github.com/mikebizne12/MichaelKebPech',
     image: Devsu,
     slug: 'devsu',
-    description: 'This is a challenge application that Devsu sent me for a opportunity to work with them. The System made using Angular',
+    description:
+      'This is a challenge application that Devsu sent me for a opportunity to work with them. The System made using Angular',
     tech: [
       'Angular 17',
       'MVCC',
@@ -72,6 +94,7 @@ const data = [
       'GitHub',
       'ESlint',
       'Prettier',
+      'RxJS',
     ],
   },
   {
