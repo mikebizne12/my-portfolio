@@ -21,7 +21,31 @@ import RadarLibrary from '../assets/images/radar.webp';
 import Freelance from '../assets/images/freelance.webp';
 import AlternaDisplay from '../assets/images/alternadisplay.webp';
 import Devsu from '../assets/images/devsu.webp';
+import Vibly from '../assets/images/vibly.png';
 const data = [
+  {
+    name: 'Vibly',
+    type: 'WebApp',
+    url: 'https://vibly.io/',
+    github: '',
+    image: Vibly,
+    slug: 'vibly',
+    description:
+      'A web app that allows users to create and share their own challenges. The System made using Angular',
+    tech: [
+      'Angular 14',
+      'Less',
+      'HTML',
+      'GIT',
+      'GitLab',
+      'ESlint',
+      'Prettier',
+      'NGXS',
+      'Karma & Jasmine',
+      'RxJS',
+      'AI'
+    ],
+  },
   {
     name: 'Challenge ByteFactory',
     type: 'Website',
@@ -485,7 +509,7 @@ const data = [
   {
     name: 'Chocolates Imperial',
     type: 'Website',
-    url: 'http://careerlab.me/',
+    url: 'http://chocolateimperial.com/',
     github: '',
     image: ChocolateSystem,
     slug: 'chocolates-imperial',
